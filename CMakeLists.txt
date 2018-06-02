@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.7)
+project(Single_Server_Queue)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_FLAGS "-lm")
+set(SOURCE_FILES main.c rngs.c rngs.h)
+add_executable(SSQ1 ${SOURCE_FILES})
